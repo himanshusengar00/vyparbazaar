@@ -1,0 +1,49 @@
+.button-container {
+  min-width: 115px;
+  height: auto; /* Adjust height to fit content */
+  margin-bottom: 10px;
+  letter-spacing: 0.1px;
+  line-height: 1; /* Reset line-height to default */
+  padding: 10px 2px; /* Adjust padding for inner spacing */
+  font-size: 12px;
+  background-color: rgb(233, 13, 13);
+  color: white;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  border-radius: 4px;
+
+  &:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(8, 124, 240);
+  }
+
+  &.google-sign-in,
+  &.alert-box {
+    background-color: #4285f4;
+    color: white;
+
+    &:hover {
+      background-color: #357ae8;
+      border: none;
+    }
+  }
+
+  &.inverted,
+  &.inverted-add-to-cart {
+    background-color: rgba(63, 103, 15, 0.853);
+    color: rgb(249, 239, 239);
+    border: 1px solid rgb(253, 251, 251);
+    border-radius: 5px;
+    &:hover {
+      background-color: rgba(18, 44, 18, 0.982);
+      color: white;
+      border: none;
+    }
+  }
+}

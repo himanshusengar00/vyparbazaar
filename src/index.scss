@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+  background: white;
+  padding-top: 120px; /* Equal to the height of the navbar */
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+/* For example, applying padding to the main content container */
+.main-content {
+  padding-top: 190px; /* Equal to the height of the navbar */
+}
+
