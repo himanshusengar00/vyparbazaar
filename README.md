@@ -13,8 +13,10 @@ Visit the live application at: [https://vyparbazaar.com](https://vyparbazaar.com
 ## Installation
 
 To get started with Vyaapaar, clone the repository and install the dependencies using `npm` or `yarn`:
-
+uyuu
 ```bash
 git clone <repository-url>
 cd vyaapaar
 npm install
+
+--updated
